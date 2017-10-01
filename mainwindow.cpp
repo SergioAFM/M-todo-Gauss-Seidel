@@ -45,8 +45,7 @@ void MainWindow::metodo(){
     double xa1=0,xa2=0,xa3=0,xa4=0;
     double ex1=100,ex2=100,ex3=100,ex4=100;
     double iter=0;
-    while((ex1>Error)||(ex2>Error)||(ex3>Error)||(ex4>Error)&&(iter<1000)){  //Condiciones para que se pueda ejecutar el método
-
+    while((ex1>Error)||(ex2>Error)||(ex3>Error)||(ex4>Error)&&(iter<1000)){  // Conditions for the method to be executed
         x1=(a-(b1*x2)-(c1*x3)-(d1*x4))/a1;
         x2=(b-(a2*x1)-(c2*x3)-(d2*x4))/b2;
         x3=(c-(a3*x1)-(b3*x2)-(d3*x4))/c3;
